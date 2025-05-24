@@ -1,4 +1,4 @@
-# Projeto para Análise e Processamento de Dados de Melbourne Punch
+# Análise e Processamento de Dados de Melbourne Punch
 
 Este projeto contém uma série de notebooks Jupyter para processamento e análise de imagens das edições de Melbourne Punch disponíveis no catálogo TROVE. 
 Ele abrange todo a arquitetura, desde a coleta de dados até formas de análise, oferecendo um caminho possível a pesquisadores que trabalham com conjuntos de dados de imagens históricas.
