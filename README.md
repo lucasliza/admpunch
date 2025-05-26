@@ -19,7 +19,7 @@ O projeto tem como objetivo digitalizar, processar e analisar imagens histórica
 ## Requisitos
 
 - Python 3.11 ou posterior
-- Conda (Miniconda ou Anaconda)
+- [Conda](https://www.anaconda.com/download-success) (Miniconda ou Anaconda)
 - Git (para clonar o repositório)
 
 ## Configuração
@@ -32,17 +32,12 @@ O projeto tem como objetivo digitalizar, processar e analisar imagens histórica
 
 2. Crie um ambiente Conda:
    ```
-   conda create -n projeto_mpunch python=3.11
+   $ conda create --name projeto_mpunch --file requisitos.txt
    ```
 
 3. Ative o ambiente Conda:
    ```
    conda activate projeto_mpunch
-   ```
-
-4. Instale os pacotes necessários usando o arquivo requisitos.txt:
-   ```
-   pip install -r requisitos.txt
    ```
 
 ## Notebooks
