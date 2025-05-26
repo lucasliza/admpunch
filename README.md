@@ -64,9 +64,9 @@ Siga as etapas a seguir para executar os notebooks deste projeto:
    conda activate projeto_mpunch
    ```
 
-3. Inicie o Jupyter Notebook:
+3. Inicie o Jupyter Lab:
    ```
-   jupyter notebook
+   jupyter lab
    ```
 
 ## Licença
