@@ -7,8 +7,8 @@ Ele abrange toda a arquitetura, desde a coleta de dados até formas de análise,
 1. [Visão Geral](#visão-geral)
 2. [Requisitos](#requisitos)
 3. [Configuração](#configuração)
-4. [Notebooks Jupyter](#notebooks)
-5. [Executando os códigos](#executando-os-códigos)
+4. [Execução do código](#execução-do-código)
+5. [Descrição dos notebooks](#descrição-dos-notebooks)
 6. [Licença](#licença)
 7. [Solução de problemas](#solução-de-problemas)
 
@@ -40,17 +40,7 @@ O projeto tem como objetivo digitalizar, processar e analisar imagens histórica
    conda activate projeto_mpunch
    ```
 
-## Notebooks
-
-1. `1 - DownloadPDFs.ipynb`: 
-
-2. `2 - PDFtoJPG.ipynb`:
-
-3. `3 - ImageSampling.ipynb`:
-
-5. `5 - ExtractImages.ipynb`:
-
-## Executando os códigos
+## Execução do código
 
 Siga as etapas a seguir para executar os notebooks deste projeto:
 
@@ -68,6 +58,16 @@ Siga as etapas a seguir para executar os notebooks deste projeto:
    ```
    jupyter lab
    ```
+
+## Descrição dos notebooks
+
+`1 - DownloadPDFs.ipynb`: 
+
+`2 - PDFtoJPG.ipynb`:
+
+`3 - ImageSampling.ipynb`:
+
+`5 - ExtractImages.ipynb`:
 
 ## Licença
 
