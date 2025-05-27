@@ -62,18 +62,36 @@ Siga as etapas a seguir para executar os notebooks deste projeto:
 ## Descrição dos notebooks
 
 `1 - DownloadPDFs.ipynb`
-   - Finalidade: Download de arquivos PDF contendo as páginas da revista Melbourne Punch dos registros de arquivo CSV obtido do TROVE.
-   - Principais recursos:
+   - Finalidade: 
+      - Download de arquivos PDF contendo as páginas da revista Melbourne Punch dos registros de arquivo CSV obtido do TROVE.
+   - Detalhamento das tarefas principais:
       - Lê URLs de download de um arquivo CSV.
       - Pula downloads de arquivos já existentes.
       - Implementa download paralelo para eficiência.
       - Inclui tratamento de erros para downloads e carregamento de dados.
 
-`2 - PDFtoJPG.ipynb`:
+`2 - PDFtoJPG.ipynb`
+   - Finalidade:
+      - Conversão de arquivos PDF em imagens JPG de alta resolução.
+   - Detalhamento das tarefas principais:
+      - Lê dados de um arquivo CSV, esperando caminhos para PDFs.
+      - Usa a biblioteca `pdf2image` para realizar a conversão, permitindo ajuste de resolução (DPI).
+      - Implementa processamento paralelo para converter múltiplos PDFs simultaneamente, aumentando a eficiência.
+      - Inclui tratamento de erros para PDFs corrompidos ou não encontrados.
+      - Gera um novo CSV com informações sobre os arquivos JPG criados e quaisquer erros.
 
 `3 - ImageSampling.ipynb`:
+   - Finalidade:
+      - Gerar um conjunto amostral aleatório de imagens e as dividir em conjuntos de treinamento e validação.
+   - Detalhamento das tarefas principais:
+      - Implementa amostragem estratificada para garantir conjuntos de dados equilibrados.
+      - Proporção de divisão de treinamento/validação personalizável.
 
-`5 - ExtractImages.ipynb`:
+`4 - FinetuneYolo.ipynb`
+
+`5 - ExtractImages.ipynb`
+
+`6 - GenerateHeatmap.ipynb`
 
 ## Licença
 
