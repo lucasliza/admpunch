@@ -88,10 +88,29 @@ Siga as etapas a seguir para executar os notebooks deste projeto:
       - Proporção de divisão de treinamento/validação personalizável.
 
 `4 - FinetuneYolo.ipynb`
+   - Finalidade:
+      - Treinar e avaliar um modelo de detecção de objetos YOLO para detecção de charges na revista.
+   - Detalhamento das tarefas principais:
+      - Usa a implementação do Ultralytics YOLOv11 nano.
+      - Inclui funcionalidades de treinamento, avaliação e exportação de modelos
+      - Visualiza os resultados do treinamento e as métricas de desempenho do modelo
 
 `5 - ExtractImages.ipynb`
-
+   - Finalidade:
+      - Detectar e extrair ilustrações de imagens de jornal, salvando as ilustrações detectadas como arquivos separados.
+   - Detalhamento das tarefas principais:
+      - Aplica o modelo YOLO treinado para detectar regiões de interesse
+      - Extrai e salva as regiões detectadas como imagens separadas
+      - Gera metadados para as imagens extraídas
+   
 `6 - GenerateHeatmap.ipynb`
+   - Finalidade:
+      - Gerar mapas de calor (heatmaps) para visualizar a distribuição e densidade de ilustrações em páginas de documentos.
+   - Detalhamento das tarefas principais:
+      - Filtra ilustrações por intervalo de datas e por página específica.
+      - Exclui opcionalmente ilustrações que cobrem a página inteira para focar em conteúdo menor.
+      - Gera heatmaps usando `Matplotlib`, representando a densidade de sobreposição com cores.
+      - Salva os heatmaps gerados como arquivos de imagem para cada página processada.
 
 ## Licença
 
