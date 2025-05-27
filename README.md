@@ -61,7 +61,13 @@ Siga as etapas a seguir para executar os notebooks deste projeto:
 
 ## Descrição dos notebooks
 
-`1 - DownloadPDFs.ipynb`: 
+`1 - DownloadPDFs.ipynb`
+   - Finalidade: Download de arquivos PDF contendo as páginas da revista Melbourne Punch dos registros de arquivo CSV obtido do TROVE.
+   - Principais recursos:
+      - Lê URLs de download de um arquivo CSV.
+      - Pula downloads de arquivos já existentes.
+      - Implementa download paralelo para eficiência.
+      - Inclui tratamento de erros para downloads e carregamento de dados.
 
 `2 - PDFtoJPG.ipynb`:
 
